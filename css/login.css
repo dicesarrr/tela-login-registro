@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* font-family: "IBM Plex Mono", monospace;
+font-family: "Merriweather", serif; */
+
+body {
+  margin: 0;
+  padding: 0;
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+  background-image: url("/paginas-foto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container {
+  width: 585px;
+  height: 660px;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  justify-items: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.login-titulo {
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+  color: #EDE6D6;
+  font-family: "Merriweather", serif;
+}
+
+.input-container {
+  width: 431px;
+  display: grid;
+  gap: 30px;
+  margin: 70px 0px 30px 0px;
+}
+
+.input-container input {
+  max-width: 431px;
+  height: 74px;
+  padding: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  padding-left: 15px;
+  border: 6px solid #7C4A33;
+  border-radius: 5px;
+}
+
+.input-container input::placeholder {
+  color: #A3B18A;
+  opacity: 1;
+}
+
+.link-botao {
+  display: flex;
+  width: 431px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-botao a {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  color: #EDE6D6;
+  text-decoration: none;
+}
+
+.link-botao a:hover {
+  transition: .2s;
+  color: #A3B18A;
+}
+
+.link-botao a:active {
+  color: #2E382E;
+}
+
+.link-botao button {
+  width: 200px;
+  height: 60px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  background-color: #E4C580;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #2E382E;
+}
+
+.link-botao button:hover {
+  transition: .2s;
+  background-color: #2E382E;
+  color: #E4C580;
+}
+
+.link-botao button:active {
+  background-color: #A3B18A;
+  color: #2E382E;
+}
